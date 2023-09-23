@@ -1,0 +1,43 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  background-color: rgb(217, 217, 217);
+  font-family: "Inter", sans-serif;
+}
+header > input {
+  width: 80vw;
+  height: 45px;
+  background-color: transparent;
+  color: black;
+
+  padding-inline: 15px;
+}
+header > button {
+  width: 10vw;
+  height: 45px;
+}
+.heading {
+  height: 60px;
+  color: white;
+
+  font-size: 20px;
+
+  font-weight: 300;
+}
+.sort>div{
+    background-color: black;
+    padding: 10px 25px;
+    cursor:pointer;
+    color: white;
+    border:2px solid white;
+}
+.img-cls > img{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+}
+#fem-tbl{
+    display: none;
+}
